@@ -15,5 +15,8 @@
     "@enkore/spec": "^0.209.0",
     "@enkore/target-js-factory": "^0.0.3",
     "enkore": "^0.0.16"
+  },
+  "peerDependencies": {
+    "@types/node": ">=22.7.x"
   }
 }
