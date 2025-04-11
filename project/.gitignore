@@ -1,3 +1,5 @@
 # This file is automatically managed by enkore
 # DO NOT ADD ENTRIES HERE, THEY WILL BE REMOVED
-/project/export/targetIntegrationAPI/__aggregatedExports.mts
+/export/targetIntegrationAPI/__aggregatedExports.mts
+/export/project/__aggregatedExports.mts
+/export/autogenerate/__aggregatedExports.mts
