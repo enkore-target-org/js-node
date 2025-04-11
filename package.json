@@ -10,11 +10,11 @@
   },
   "type": "module",
   "devDependencies": {
-    "@enkore-target/js-none": "^0.0.7",
-    "@enkore/core": "^0.6.3",
-    "@enkore/spec": "^0.209.1",
-    "@enkore/target-js-factory": "^0.0.4",
-    "enkore": "^0.0.16"
+    "@enkore-target/js-none": "^0.0.10",
+    "@enkore/core": "^0.6.6",
+    "@enkore/spec": "^0.228.0",
+    "@enkore/target-js-factory": "^0.0.10",
+    "enkore": "^0.0.20"
   },
   "peerDependencies": {
     "@types/node": ">=22.7.x"
