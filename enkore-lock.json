@@ -9,7 +9,7 @@
             "hash": "b5de6ba1596a3c5a378aff24ad2278a6dec02b0d581de24a3fa5b47bf1d2aaaa"
         },
         "project/export/project/__aggregatedExports.mts": {
-            "hash": "2e43366dff71e21bf72d54928c2a9402cf507b8e520573bebbf944e1ba16e870"
+            "hash": "fc4a43129b9faa9acc346446d38707e0c645b827f37c66cacd5c62546b92daa6"
         },
         "project/export/autogenerate/__aggregatedExports.mts": {
             "hash": "5edc2c9ba162f4c84a822d1fdab72c3f9097a2dfeb222f0af940653e39ed89f3"
@@ -17,17 +17,17 @@
     },
     "targetDependencies": {
         "@enkore/babel": {
-            "version": "0.0.4",
-            "requestedVersion": "0.0.4"
+            "version": "0.0.15",
+            "requestedVersion": "0.0.15"
         },
         "@enkore/rollup": {
             "version": "0.0.3",
             "requestedVersion": "0.0.3"
         },
         "@enkore/typescript": {
-            "version": "0.0.11",
-            "requestedVersion": "0.0.11"
+            "version": "0.0.15",
+            "requestedVersion": "0.0.15"
         }
     },
-    "targetDependenciesStamp": "js-none-19cb648ec0bbfcd6403c1971a4282a53defbd985a8c33809996aaae659a1e002-0.6.6"
+    "targetDependenciesStamp": "js-none-9afb2539b5d38b41b687f2805f230fe1d2531943d588ff4739aa48d6fdb6c422-0.6.6"
 }
