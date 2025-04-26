@@ -12,8 +12,8 @@
   "devDependencies": {
     "@enkore-target/js-none": "^0.0.22",
     "@enkore/core": "^0.6.6",
-    "@enkore/spec": "^0.236.0",
-    "@enkore/target-js-factory": "^0.0.18",
+    "@enkore/spec": "^0.243.0",
+    "@enkore/target-js-factory": "^0.0.28",
     "enkore": "^0.0.22"
   },
   "peerDependencies": {
