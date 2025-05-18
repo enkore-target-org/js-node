@@ -17,18 +17,6 @@ export const config: unknown = createConfig({
 	target: {
 		name: "js-none",
 		options: createTargetJSNoneOptions({
-			npm: {
-				registry: [{
-					url: "https://registry.npmjs.org/",
-					authTokenFilePath: "./secrets/npm_auth_token"
-				}, {
-					url: "https://npm-registry.anio.software/",
-					scope: ["@asint", "@asint-types"],
-					clientPrivateKeyFilePath: "./secrets/npm_client.pkey",
-					clientCertificateFilePath: "./secrets/npm_client.cert",
-					authTokenFilePath: "./secrets/anio_npm_auth_token"
-				}]
-			},
 			exports: {
 				"targetIntegrationAPI": {
 					checkAgainstInterface: [
@@ -37,14 +25,26 @@ export const config: unknown = createConfig({
 					]
 				}
 			},
-			publish: {
-				withPackageNames: [
-					isPublicRelease ? {
-						name: "<FQPN>",
-						publishWithProvenance: true
-					} : "@asint/<FQPN_FLAT>"
-				]
-			}
+
+			registry: {
+				"anioSoftware": {
+					url: "https://npm-registry.anio.software",
+					authTokenFilePath: "secrets/anio_npm_auth_token",
+					clientPrivateKeyFilePath: "secrets/npm_client.pkey",
+					clientCertificateFilePath: "secrets/npm_client.cert"
+				}
+			},
+
+			packageSourceRegistryByScope: {
+				"@asint": {
+					registry: "anioSoftware"
+				}
+			},
+
+			publish: [{
+				packageName: "@asint/enkore-target__js-node",
+				registry: "anioSoftware"
+			}]
 		})
 	},
 
