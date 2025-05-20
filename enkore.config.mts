@@ -42,7 +42,8 @@ export const config: unknown = createConfig({
 			},
 
 			publish: [{
-				registry: "anioSoftware"
+				registry: "anioSoftware",
+				tag: isPublicRelease ? "latest" : "canary"
 			}]
 		})
 	},
